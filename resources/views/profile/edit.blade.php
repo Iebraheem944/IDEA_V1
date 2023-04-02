@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'user', 'title' => 'Light Bootstrap Dashboard Laravel by Creative Tim & UPDIVISION', 'navName' => 'User Profile', 'activeButton' => 'laravel'])
+@extends('layouts.app', ['activePage' => 'user', 'title' => 'My Profile', 'navName' => 'User Profile', 'activeButton' => 'laravel'])
 
 @section('content')
     <div class="content">
@@ -43,6 +43,7 @@
                                     </div>
                                     <div class="text-center">
                                         <button type="submit" class="btn btn-default mt-4">{{ __('Save') }}</button>
+                                        <span><a href="{{route("download")}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>{{ __('home.pdf') }}</a></span>
                                     </div>
                                 </div>
                             </form>

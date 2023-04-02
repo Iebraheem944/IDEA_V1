@@ -43,4 +43,10 @@ class ProfileController extends Controller
 
         return back()->withPasswordStatus(__('Password successfully updated.'));
     }
+
+    public function download_pdf()
+    {
+        # code...
+        return redirect()->back();
+    }
 }

@@ -9,7 +9,7 @@ return [
     */
 
 "welcome"=>"Welcome Laravel",
-""=>"",
+"pdf"=>"Download pdf",
 ""=>"",
 ""=>"",
 ""=>"",
