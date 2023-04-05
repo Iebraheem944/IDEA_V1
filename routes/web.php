@@ -54,5 +54,5 @@ Route::group(['middleware' => 'auth'], function () {
 
 Route::group(['middleware' => 'auth'], function () {
 //........ pdf section GPDFController 
-Route::get('/download-pdf', 'App\Http\Controllers\GPDFController@download_pdf')->name('download');
+Route::get('/home/download-pdf', 'App\Http\Controllers\GPDFController@download_pdf')->name('download');
 });
